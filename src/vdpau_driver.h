@@ -21,6 +21,7 @@
 #ifndef VDPAU_DRIVER_H
 #define VDPAU_DRIVER_H
 
+#include <linux/videodev2.h> 
 #include <stdbool.h>
 #include <va/va_backend.h>
 #include "vaapi_compat.h"
